@@ -10,6 +10,7 @@ const Card = styled.div`
   text-align: center;
   box-shadow: 0 20px 30px rgba(0,0,0,0.2);
   margin: 0 auto;
+  margin-top: 20px;
 `
 
 export default function Home() {
