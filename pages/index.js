@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-import styles from '../styles/Home.module.css'
+// import styles from '../styles/Home.module.css'
 import '../styles/style.css'
 
 const Card = styled.div`
@@ -14,7 +14,7 @@ const Card = styled.div`
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
