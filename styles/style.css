@@ -1,4 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&subset=chinese-traditional,japanese);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Noto Sans TC', '思源黑體', sans-serif;
+}
 .make_test{
     color: blueviolet;
     text-align: center;
+}
+.com_text{
+    color: coral;
+}
+.eli{
+    width: 300px;
+    margin: 0 auto;
+}
+.eli img{
+    width: 100%;
+    height: auto;
 }
